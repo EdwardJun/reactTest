@@ -1,0 +1,15 @@
+.title {
+  color: red;
+}
+
+/* :global(.类名) 表示类名不会被模块化，而是会全局生效 */
+:global(.test) {
+  font-style: italic;
+  font-size: 50px;
+  color: green;
+}
+
+/* css 模块化，只针对 类选择器和 id 选择器 */
+/* h1 {
+  font-style: italic;
+} */
